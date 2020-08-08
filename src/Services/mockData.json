@@ -1,0 +1,24 @@
+{
+    "itemData": [
+        {
+            "id": 1001,
+            "name": "Nomination ring",
+            "category": "jewellery",
+            "subCategory": "bracelets",
+            "itemImage": "/assets/images/icon_bangles1.png",
+            "price": {
+                "metalPricePerGm": "2000"
+            }
+        },
+        {
+            "id": 1002,
+            "name": "Designer bracelet",
+            "category": "jewellery",
+            "subCategory": "bracelets",
+            "itemImage": "/assets/images/icon_pendant1.png",
+            "price": {
+                "metalPricePerGm": "2200"
+            }
+        }
+    ]
+}

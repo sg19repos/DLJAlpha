@@ -1,0 +1,29 @@
+.heart {
+    width: 40px;
+    height: 50px;
+    background: url('/assets/images/heart.png') no-repeat;
+    /* background-position: 0 0; */
+    background-position: -30px -23px;
+    cursor: pointer;
+    transition: background-position 1s steps(28);
+    transition-duration: 0s;
+}
+
+.isActive {
+    transition-duration: 1s;
+    /* background-position: -2800px 0; */
+    background-position: -2828px -25px !important;
+}
+
+body {
+    /* background: linear-gradient(135deg, #121721 0%, #000000 100%) fixed; */
+    /* color: #fff; */
+    font: 300 16px/1.5 'Open Sans', sans-serif;
+}
+
+.stage {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

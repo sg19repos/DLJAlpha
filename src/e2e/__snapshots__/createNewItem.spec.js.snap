@@ -1,0 +1,335 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ListOutItems renders a list with items in it 1`] = `
+"<InteractiveList listDetails={{...}} id=\\"1\\" handleDelete={[Function: handleDelete]}>
+  <div className=\\"makeStyles-root-1\\">
+    <WithStyles(ForwardRef(List)) component=\\"nav\\" aria-label=\\"main mailbox folders\\" className=\\"makeStyles-fonts-2\\">
+      <ForwardRef(List) classes={{...}} component=\\"nav\\" aria-label=\\"main mailbox folders\\" className=\\"makeStyles-fonts-2\\">
+        <nav className=\\"MuiList-root makeStyles-fonts-2 MuiList-padding\\" aria-label=\\"main mailbox folders\\">
+          <WithStyles(ForwardRef(ListItem)) button={true} style={{...}}>
+            <ForwardRef(ListItem) classes={{...}} button={true} style={{...}}>
+              <li className=\\"MuiListItem-container\\">
+                <WithStyles(ForwardRef(ButtonBase)) className=\\"MuiListItem-root MuiListItem-gutters MuiListItem-button MuiListItem-secondaryAction\\" disabled={false} style={{...}} component=\\"div\\" focusVisibleClassName=\\"Mui-focusVisible\\">
+                  <ForwardRef(ButtonBase) classes={{...}} className=\\"MuiListItem-root MuiListItem-gutters MuiListItem-button MuiListItem-secondaryAction\\" disabled={false} style={{...}} component=\\"div\\" focusVisibleClassName=\\"Mui-focusVisible\\">
+                    <div className=\\"MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button MuiListItem-secondaryAction\\" onBlur={[Function]} onClick={[undefined]} onFocus={[Function]} onKeyDown={[Function]} onKeyUp={[Function]} onMouseDown={[Function]} onMouseLeave={[Function]} onMouseUp={[Function]} onDragLeave={[Function]} onTouchEnd={[Function]} onTouchMove={[Function]} onTouchStart={[Function]} tabIndex={0} role=\\"button\\" aria-disabled={false} style={{...}}>
+                      <WithStyles(ForwardRef(ListItemIcon))>
+                        <ForwardRef(ListItemIcon) classes={{...}}>
+                          <div className=\\"MuiListItemIcon-root\\">
+                            <ForwardRef>
+                              <WithStyles(ForwardRef(SvgIcon))>
+                                <ForwardRef(SvgIcon) classes={{...}}>
+                                  <svg className=\\"MuiSvgIcon-root\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" color={[undefined]} aria-hidden={true} role={[undefined]}>
+                                    <path d=\\"M19 3H4.99c-1.11 0-1.98.89-1.98 2L3 19c0 1.1.88 2 1.99 2H19c1.1 0 2-.9 2-2V5c0-1.11-.9-2-2-2zm0 12h-4c0 1.66-1.35 3-3 3s-3-1.34-3-3H4.99V5H19v10z\\" />
+                                  </svg>
+                                </ForwardRef(SvgIcon)>
+                              </WithStyles(ForwardRef(SvgIcon))>
+                            </ForwardRef>
+                          </div>
+                        </ForwardRef(ListItemIcon)>
+                      </WithStyles(ForwardRef(ListItemIcon))>
+                      <WithStyles(ForwardRef(ListItemText)) style={{...}} primary=\\"income1\\">
+                        <ForwardRef(ListItemText) classes={{...}} style={{...}} primary=\\"income1\\">
+                          <div className=\\"MuiListItemText-root\\" style={{...}}>
+                            <WithStyles(ForwardRef(Typography)) variant=\\"body1\\" className=\\"MuiListItemText-primary\\" component=\\"span\\" display=\\"block\\">
+                              <ForwardRef(Typography) classes={{...}} variant=\\"body1\\" className=\\"MuiListItemText-primary\\" component=\\"span\\" display=\\"block\\">
+                                <span className=\\"MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock\\">
+                                  income1
+                                </span>
+                              </ForwardRef(Typography)>
+                            </WithStyles(ForwardRef(Typography))>
+                          </div>
+                        </ForwardRef(ListItemText)>
+                      </WithStyles(ForwardRef(ListItemText))>
+                      <WithStyles(ForwardRef(ListItemText)) primary={{...}}>
+                        <ForwardRef(ListItemText) classes={{...}} primary={{...}}>
+                          <div className=\\"MuiListItemText-root\\">
+                            <WithStyles(ForwardRef(Typography)) variant=\\"body1\\" className=\\"MuiListItemText-primary\\" component=\\"span\\" display=\\"block\\">
+                              <ForwardRef(Typography) classes={{...}} variant=\\"body1\\" className=\\"MuiListItemText-primary\\" component=\\"span\\" display=\\"block\\">
+                                <span className=\\"MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock\\">
+                                  <ForwardRef>
+                                    <WithStyles(ForwardRef(SvgIcon))>
+                                      <ForwardRef(SvgIcon) classes={{...}}>
+                                        <svg className=\\"MuiSvgIcon-root\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" color={[undefined]} aria-hidden={true} role={[undefined]}>
+                                          <path d=\\"M10 17l5-5-5-5v10z\\" />
+                                        </svg>
+                                      </ForwardRef(SvgIcon)>
+                                    </WithStyles(ForwardRef(SvgIcon))>
+                                  </ForwardRef>
+                                </span>
+                              </ForwardRef(Typography)>
+                            </WithStyles(ForwardRef(Typography))>
+                          </div>
+                        </ForwardRef(ListItemText)>
+                      </WithStyles(ForwardRef(ListItemText))>
+                      <WithStyles(ForwardRef(ListItemText)) style={{...}} secondary=\\"House Rent\\">
+                        <ForwardRef(ListItemText) classes={{...}} style={{...}} secondary=\\"House Rent\\">
+                          <div className=\\"MuiListItemText-root\\" style={{...}}>
+                            <WithStyles(ForwardRef(Typography)) variant=\\"body2\\" className=\\"MuiListItemText-secondary\\" color=\\"textSecondary\\" display=\\"block\\">
+                              <ForwardRef(Typography) classes={{...}} variant=\\"body2\\" className=\\"MuiListItemText-secondary\\" color=\\"textSecondary\\" display=\\"block\\">
+                                <p className=\\"MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock\\">
+                                  House Rent
+                                </p>
+                              </ForwardRef(Typography)>
+                            </WithStyles(ForwardRef(Typography))>
+                          </div>
+                        </ForwardRef(ListItemText)>
+                      </WithStyles(ForwardRef(ListItemText))>
+                      <WithStyles(ForwardRef(ListItemText)) primary={{...}}>
+                        <ForwardRef(ListItemText) classes={{...}} primary={{...}}>
+                          <div className=\\"MuiListItemText-root\\">
+                            <WithStyles(ForwardRef(Typography)) variant=\\"body1\\" className=\\"MuiListItemText-primary\\" component=\\"span\\" display=\\"block\\">
+                              <ForwardRef(Typography) classes={{...}} variant=\\"body1\\" className=\\"MuiListItemText-primary\\" component=\\"span\\" display=\\"block\\">
+                                <span className=\\"MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock\\">
+                                  <ForwardRef>
+                                    <WithStyles(ForwardRef(SvgIcon))>
+                                      <ForwardRef(SvgIcon) classes={{...}}>
+                                        <svg className=\\"MuiSvgIcon-root\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" color={[undefined]} aria-hidden={true} role={[undefined]}>
+                                          <path d=\\"M10 17l5-5-5-5v10z\\" />
+                                        </svg>
+                                      </ForwardRef(SvgIcon)>
+                                    </WithStyles(ForwardRef(SvgIcon))>
+                                  </ForwardRef>
+                                </span>
+                              </ForwardRef(Typography)>
+                            </WithStyles(ForwardRef(Typography))>
+                          </div>
+                        </ForwardRef(ListItemText)>
+                      </WithStyles(ForwardRef(ListItemText))>
+                      <WithStyles(ForwardRef(ListItemText)) style={{...}} primary={5}>
+                        <ForwardRef(ListItemText) classes={{...}} style={{...}} primary={5}>
+                          <div className=\\"MuiListItemText-root\\" style={{...}}>
+                            <WithStyles(ForwardRef(Typography)) variant=\\"body1\\" className=\\"MuiListItemText-primary\\" component=\\"span\\" display=\\"block\\">
+                              <ForwardRef(Typography) classes={{...}} variant=\\"body1\\" className=\\"MuiListItemText-primary\\" component=\\"span\\" display=\\"block\\">
+                                <span className=\\"MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock\\">
+                                  5
+                                </span>
+                              </ForwardRef(Typography)>
+                            </WithStyles(ForwardRef(Typography))>
+                          </div>
+                        </ForwardRef(ListItemText)>
+                      </WithStyles(ForwardRef(ListItemText))>
+                      <WithStyles(memo) center={false}>
+                        <ForwardRef(TouchRipple) classes={{...}} center={false}>
+                          <span className=\\"MuiTouchRipple-root\\">
+                            <TransitionGroup component={{...}} exit={true} childFactory={[Function: childFactory]} />
+                          </span>
+                        </ForwardRef(TouchRipple)>
+                      </WithStyles(memo)>
+                    </div>
+                  </ForwardRef(ButtonBase)>
+                </WithStyles(ForwardRef(ButtonBase))>
+                <WithStyles(ForwardRef(ListItemSecondaryAction))>
+                  <ForwardRef(ListItemSecondaryAction) classes={{...}}>
+                    <div className=\\"MuiListItemSecondaryAction-root\\">
+                      <WithStyles(ForwardRef(IconButton)) edge=\\"end\\" aria-label=\\"delete\\" testID=\\"deleteItem\\" onClick={[Function: onClick]}>
+                        <ForwardRef(IconButton) classes={{...}} edge=\\"end\\" aria-label=\\"delete\\" testID=\\"deleteItem\\" onClick={[Function: onClick]}>
+                          <WithStyles(ForwardRef(ButtonBase)) className=\\"MuiIconButton-root MuiIconButton-edgeEnd\\" centerRipple={true} focusRipple={true} disabled={false} aria-label=\\"delete\\" testID=\\"deleteItem\\" onClick={[Function: onClick]}>
+                            <ForwardRef(ButtonBase) classes={{...}} className=\\"MuiIconButton-root MuiIconButton-edgeEnd\\" centerRipple={true} focusRipple={true} disabled={false} aria-label=\\"delete\\" testID=\\"deleteItem\\" onClick={[Function: onClick]}>
+                              <button className=\\"MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd\\" onBlur={[Function]} onClick={[Function: onClick]} onFocus={[Function]} onKeyDown={[Function]} onKeyUp={[Function]} onMouseDown={[Function]} onMouseLeave={[Function]} onMouseUp={[Function]} onDragLeave={[Function]} onTouchEnd={[Function]} onTouchMove={[Function]} onTouchStart={[Function]} tabIndex={0} type=\\"button\\" disabled={false} aria-label=\\"delete\\" testID=\\"deleteItem\\">
+                                <span className=\\"MuiIconButton-label\\">
+                                  <ForwardRef>
+                                    <WithStyles(ForwardRef(SvgIcon))>
+                                      <ForwardRef(SvgIcon) classes={{...}}>
+                                        <svg className=\\"MuiSvgIcon-root\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" color={[undefined]} aria-hidden={true} role={[undefined]}>
+                                          <path d=\\"M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z\\" />
+                                        </svg>
+                                      </ForwardRef(SvgIcon)>
+                                    </WithStyles(ForwardRef(SvgIcon))>
+                                  </ForwardRef>
+                                </span>
+                                <WithStyles(memo) center={true}>
+                                  <ForwardRef(TouchRipple) classes={{...}} center={true}>
+                                    <span className=\\"MuiTouchRipple-root\\">
+                                      <TransitionGroup component={{...}} exit={true} childFactory={[Function: childFactory]} />
+                                    </span>
+                                  </ForwardRef(TouchRipple)>
+                                </WithStyles(memo)>
+                              </button>
+                            </ForwardRef(ButtonBase)>
+                          </WithStyles(ForwardRef(ButtonBase))>
+                        </ForwardRef(IconButton)>
+                      </WithStyles(ForwardRef(IconButton))>
+                    </div>
+                  </ForwardRef(ListItemSecondaryAction)>
+                </WithStyles(ForwardRef(ListItemSecondaryAction))>
+              </li>
+            </ForwardRef(ListItem)>
+          </WithStyles(ForwardRef(ListItem))>
+        </nav>
+      </ForwardRef(List)>
+    </WithStyles(ForwardRef(List))>
+    <WithStyles(ForwardRef(Divider))>
+      <ForwardRef(Divider) classes={{...}}>
+        <hr className=\\"MuiDivider-root\\" role={[undefined]} />
+      </ForwardRef(Divider)>
+    </WithStyles(ForwardRef(Divider))>
+  </div>
+</InteractiveList>"
+`;
+
+exports[`Component: ListOutItems should load items renders a list with items in it 1`] = `
+"<InteractiveList listDetails={{...}} id=\\"1\\" handleDelete={[Function: handleDelete]}>
+  <div className=\\"makeStyles-root-1\\">
+    <WithStyles(ForwardRef(List)) component=\\"nav\\" aria-label=\\"main mailbox folders\\" className=\\"makeStyles-fonts-2\\">
+      <ForwardRef(List) classes={{...}} component=\\"nav\\" aria-label=\\"main mailbox folders\\" className=\\"makeStyles-fonts-2\\">
+        <nav className=\\"MuiList-root makeStyles-fonts-2 MuiList-padding\\" aria-label=\\"main mailbox folders\\">
+          <WithStyles(ForwardRef(ListItem)) button={true} style={{...}}>
+            <ForwardRef(ListItem) classes={{...}} button={true} style={{...}}>
+              <li className=\\"MuiListItem-container\\">
+                <WithStyles(ForwardRef(ButtonBase)) className=\\"MuiListItem-root MuiListItem-gutters MuiListItem-button MuiListItem-secondaryAction\\" disabled={false} style={{...}} component=\\"div\\" focusVisibleClassName=\\"Mui-focusVisible\\">
+                  <ForwardRef(ButtonBase) classes={{...}} className=\\"MuiListItem-root MuiListItem-gutters MuiListItem-button MuiListItem-secondaryAction\\" disabled={false} style={{...}} component=\\"div\\" focusVisibleClassName=\\"Mui-focusVisible\\">
+                    <div className=\\"MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button MuiListItem-secondaryAction\\" onBlur={[Function]} onClick={[undefined]} onFocus={[Function]} onKeyDown={[Function]} onKeyUp={[Function]} onMouseDown={[Function]} onMouseLeave={[Function]} onMouseUp={[Function]} onDragLeave={[Function]} onTouchEnd={[Function]} onTouchMove={[Function]} onTouchStart={[Function]} tabIndex={0} role=\\"button\\" aria-disabled={false} style={{...}}>
+                      <WithStyles(ForwardRef(ListItemIcon))>
+                        <ForwardRef(ListItemIcon) classes={{...}}>
+                          <div className=\\"MuiListItemIcon-root\\">
+                            <ForwardRef>
+                              <WithStyles(ForwardRef(SvgIcon))>
+                                <ForwardRef(SvgIcon) classes={{...}}>
+                                  <svg className=\\"MuiSvgIcon-root\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" color={[undefined]} aria-hidden={true} role={[undefined]}>
+                                    <path d=\\"M19 3H4.99c-1.11 0-1.98.89-1.98 2L3 19c0 1.1.88 2 1.99 2H19c1.1 0 2-.9 2-2V5c0-1.11-.9-2-2-2zm0 12h-4c0 1.66-1.35 3-3 3s-3-1.34-3-3H4.99V5H19v10z\\" />
+                                  </svg>
+                                </ForwardRef(SvgIcon)>
+                              </WithStyles(ForwardRef(SvgIcon))>
+                            </ForwardRef>
+                          </div>
+                        </ForwardRef(ListItemIcon)>
+                      </WithStyles(ForwardRef(ListItemIcon))>
+                      <WithStyles(ForwardRef(ListItemText)) style={{...}} primary=\\"income1\\">
+                        <ForwardRef(ListItemText) classes={{...}} style={{...}} primary=\\"income1\\">
+                          <div className=\\"MuiListItemText-root\\" style={{...}}>
+                            <WithStyles(ForwardRef(Typography)) variant=\\"body1\\" className=\\"MuiListItemText-primary\\" component=\\"span\\" display=\\"block\\">
+                              <ForwardRef(Typography) classes={{...}} variant=\\"body1\\" className=\\"MuiListItemText-primary\\" component=\\"span\\" display=\\"block\\">
+                                <span className=\\"MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock\\">
+                                  income1
+                                </span>
+                              </ForwardRef(Typography)>
+                            </WithStyles(ForwardRef(Typography))>
+                          </div>
+                        </ForwardRef(ListItemText)>
+                      </WithStyles(ForwardRef(ListItemText))>
+                      <WithStyles(ForwardRef(ListItemText)) primary={{...}}>
+                        <ForwardRef(ListItemText) classes={{...}} primary={{...}}>
+                          <div className=\\"MuiListItemText-root\\">
+                            <WithStyles(ForwardRef(Typography)) variant=\\"body1\\" className=\\"MuiListItemText-primary\\" component=\\"span\\" display=\\"block\\">
+                              <ForwardRef(Typography) classes={{...}} variant=\\"body1\\" className=\\"MuiListItemText-primary\\" component=\\"span\\" display=\\"block\\">
+                                <span className=\\"MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock\\">
+                                  <ForwardRef>
+                                    <WithStyles(ForwardRef(SvgIcon))>
+                                      <ForwardRef(SvgIcon) classes={{...}}>
+                                        <svg className=\\"MuiSvgIcon-root\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" color={[undefined]} aria-hidden={true} role={[undefined]}>
+                                          <path d=\\"M10 17l5-5-5-5v10z\\" />
+                                        </svg>
+                                      </ForwardRef(SvgIcon)>
+                                    </WithStyles(ForwardRef(SvgIcon))>
+                                  </ForwardRef>
+                                </span>
+                              </ForwardRef(Typography)>
+                            </WithStyles(ForwardRef(Typography))>
+                          </div>
+                        </ForwardRef(ListItemText)>
+                      </WithStyles(ForwardRef(ListItemText))>
+                      <WithStyles(ForwardRef(ListItemText)) style={{...}} secondary=\\"House Rent\\">
+                        <ForwardRef(ListItemText) classes={{...}} style={{...}} secondary=\\"House Rent\\">
+                          <div className=\\"MuiListItemText-root\\" style={{...}}>
+                            <WithStyles(ForwardRef(Typography)) variant=\\"body2\\" className=\\"MuiListItemText-secondary\\" color=\\"textSecondary\\" display=\\"block\\">
+                              <ForwardRef(Typography) classes={{...}} variant=\\"body2\\" className=\\"MuiListItemText-secondary\\" color=\\"textSecondary\\" display=\\"block\\">
+                                <p className=\\"MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock\\">
+                                  House Rent
+                                </p>
+                              </ForwardRef(Typography)>
+                            </WithStyles(ForwardRef(Typography))>
+                          </div>
+                        </ForwardRef(ListItemText)>
+                      </WithStyles(ForwardRef(ListItemText))>
+                      <WithStyles(ForwardRef(ListItemText)) primary={{...}}>
+                        <ForwardRef(ListItemText) classes={{...}} primary={{...}}>
+                          <div className=\\"MuiListItemText-root\\">
+                            <WithStyles(ForwardRef(Typography)) variant=\\"body1\\" className=\\"MuiListItemText-primary\\" component=\\"span\\" display=\\"block\\">
+                              <ForwardRef(Typography) classes={{...}} variant=\\"body1\\" className=\\"MuiListItemText-primary\\" component=\\"span\\" display=\\"block\\">
+                                <span className=\\"MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock\\">
+                                  <ForwardRef>
+                                    <WithStyles(ForwardRef(SvgIcon))>
+                                      <ForwardRef(SvgIcon) classes={{...}}>
+                                        <svg className=\\"MuiSvgIcon-root\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" color={[undefined]} aria-hidden={true} role={[undefined]}>
+                                          <path d=\\"M10 17l5-5-5-5v10z\\" />
+                                        </svg>
+                                      </ForwardRef(SvgIcon)>
+                                    </WithStyles(ForwardRef(SvgIcon))>
+                                  </ForwardRef>
+                                </span>
+                              </ForwardRef(Typography)>
+                            </WithStyles(ForwardRef(Typography))>
+                          </div>
+                        </ForwardRef(ListItemText)>
+                      </WithStyles(ForwardRef(ListItemText))>
+                      <WithStyles(ForwardRef(ListItemText)) style={{...}} primary={5}>
+                        <ForwardRef(ListItemText) classes={{...}} style={{...}} primary={5}>
+                          <div className=\\"MuiListItemText-root\\" style={{...}}>
+                            <WithStyles(ForwardRef(Typography)) variant=\\"body1\\" className=\\"MuiListItemText-primary\\" component=\\"span\\" display=\\"block\\">
+                              <ForwardRef(Typography) classes={{...}} variant=\\"body1\\" className=\\"MuiListItemText-primary\\" component=\\"span\\" display=\\"block\\">
+                                <span className=\\"MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock\\">
+                                  5
+                                </span>
+                              </ForwardRef(Typography)>
+                            </WithStyles(ForwardRef(Typography))>
+                          </div>
+                        </ForwardRef(ListItemText)>
+                      </WithStyles(ForwardRef(ListItemText))>
+                      <WithStyles(memo) center={false}>
+                        <ForwardRef(TouchRipple) classes={{...}} center={false}>
+                          <span className=\\"MuiTouchRipple-root\\">
+                            <TransitionGroup component={{...}} exit={true} childFactory={[Function: childFactory]} />
+                          </span>
+                        </ForwardRef(TouchRipple)>
+                      </WithStyles(memo)>
+                    </div>
+                  </ForwardRef(ButtonBase)>
+                </WithStyles(ForwardRef(ButtonBase))>
+                <WithStyles(ForwardRef(ListItemSecondaryAction))>
+                  <ForwardRef(ListItemSecondaryAction) classes={{...}}>
+                    <div className=\\"MuiListItemSecondaryAction-root\\">
+                      <WithStyles(ForwardRef(IconButton)) edge=\\"end\\" aria-label=\\"delete\\" onClick={[Function: onClick]}>
+                        <ForwardRef(IconButton) classes={{...}} edge=\\"end\\" aria-label=\\"delete\\" onClick={[Function: onClick]}>
+                          <WithStyles(ForwardRef(ButtonBase)) className=\\"MuiIconButton-root MuiIconButton-edgeEnd\\" centerRipple={true} focusRipple={true} disabled={false} aria-label=\\"delete\\" onClick={[Function: onClick]}>
+                            <ForwardRef(ButtonBase) classes={{...}} className=\\"MuiIconButton-root MuiIconButton-edgeEnd\\" centerRipple={true} focusRipple={true} disabled={false} aria-label=\\"delete\\" onClick={[Function: onClick]}>
+                              <button className=\\"MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd\\" onBlur={[Function]} onClick={[Function: onClick]} onFocus={[Function]} onKeyDown={[Function]} onKeyUp={[Function]} onMouseDown={[Function]} onMouseLeave={[Function]} onMouseUp={[Function]} onDragLeave={[Function]} onTouchEnd={[Function]} onTouchMove={[Function]} onTouchStart={[Function]} tabIndex={0} type=\\"button\\" disabled={false} aria-label=\\"delete\\">
+                                <span className=\\"MuiIconButton-label\\">
+                                  <ForwardRef>
+                                    <WithStyles(ForwardRef(SvgIcon))>
+                                      <ForwardRef(SvgIcon) classes={{...}}>
+                                        <svg className=\\"MuiSvgIcon-root\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" color={[undefined]} aria-hidden={true} role={[undefined]}>
+                                          <path d=\\"M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z\\" />
+                                        </svg>
+                                      </ForwardRef(SvgIcon)>
+                                    </WithStyles(ForwardRef(SvgIcon))>
+                                  </ForwardRef>
+                                </span>
+                                <WithStyles(memo) center={true}>
+                                  <ForwardRef(TouchRipple) classes={{...}} center={true}>
+                                    <span className=\\"MuiTouchRipple-root\\">
+                                      <TransitionGroup component={{...}} exit={true} childFactory={[Function: childFactory]} />
+                                    </span>
+                                  </ForwardRef(TouchRipple)>
+                                </WithStyles(memo)>
+                              </button>
+                            </ForwardRef(ButtonBase)>
+                          </WithStyles(ForwardRef(ButtonBase))>
+                        </ForwardRef(IconButton)>
+                      </WithStyles(ForwardRef(IconButton))>
+                    </div>
+                  </ForwardRef(ListItemSecondaryAction)>
+                </WithStyles(ForwardRef(ListItemSecondaryAction))>
+              </li>
+            </ForwardRef(ListItem)>
+          </WithStyles(ForwardRef(ListItem))>
+        </nav>
+      </ForwardRef(List)>
+    </WithStyles(ForwardRef(List))>
+    <WithStyles(ForwardRef(Divider))>
+      <ForwardRef(Divider) classes={{...}}>
+        <hr className=\\"MuiDivider-root\\" role={[undefined]} />
+      </ForwardRef(Divider)>
+    </WithStyles(ForwardRef(Divider))>
+  </div>
+</InteractiveList>"
+`;

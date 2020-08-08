@@ -1,0 +1,21 @@
+.address h5 {
+    margin: 1% auto;
+    font-family: 'Poppins';
+    font-size: 16px;
+}
+.typo {
+    /* font-family: 'Cinzel Decorative'; */
+    font-family: 'Poppins';
+    font-size: 16px;
+}
+
+.typo h5 {
+    margin: 1% auto;
+    color: #888;
+}
+.avatar {
+    background-color: #128526c7 !important;
+    font-size: 20px !important;
+    height: 30px !important;
+    width: 30px !important;
+}

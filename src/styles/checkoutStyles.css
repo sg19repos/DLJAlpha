@@ -1,0 +1,136 @@
+.main {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    font-family: Cinzel Decorative;
+}
+.main h4 {
+    /* float: left; */
+    margin: 2% auto 5% 10%;
+    font-size: 20px;
+}
+.title {
+    /* float: left; */
+    width: 100%;
+    height: 10%;
+    /* margin: 0% 2% 5% 2%; */
+}
+.title h4 {
+    float: left;
+    /* margin-left: 3%; */
+    width: 60%;
+    margin-top: 7%;
+    text-align: center;
+}
+.back {
+    /* text-align: center; */
+    float: left;
+    width: 10%;
+    color: #b89366;
+    margin-top: 7%;
+    /* margin-top: 10%; */
+}
+.checkoutTitle {
+    width: 100%;
+    height: 5%;
+}
+.stepBar {
+    display: block;
+    width: 90%;
+    margin: 1% 5%;
+}
+.currentStep {
+    height: 70%;
+    width: 100%;
+    float: left;
+    /* background-color: #ddd; */
+    text-align: center;
+}
+.bottomActions {
+    margin: auto;
+}
+.currentStep button {
+    font-family: Cinzel Decorative;
+    width: 50%;
+    background-color: #b89366;
+    color: #fff;
+}
+.bottomNotes1 {
+    /* float: left; */
+    /* text-align: center; */
+    /* margin: 1% auto 1% 10%; */
+}
+.reviewItems {
+    height: 80%;
+    width: 90%;
+    margin: 5%;
+    /* background-color: #777; */
+}
+.itemsList {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid #000; */
+    overflow: auto;
+}
+.listItem {
+    height: 30%;
+    width: 98%;
+    margin: 1%;
+    border: 1px solid #fff;
+    position: relative;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+        0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-bottom: 1px solid #c5d8e6;
+    margin: 5% auto;
+}
+.listItem .img {
+    width: 25%;
+    height: 75%;
+    float: left;
+}
+.listItem .img img {
+    width: 100%;
+    margin: 5%;
+    padding: 20% 0% 5% 0%;
+    border-radius: 10%;
+    height: 75%;
+    /* background-color: #21567c; */
+    background-color: #000;
+}
+.itemDetailsTile {
+    height: 90%;
+    width: 73%;
+    margin: 1%;
+    /* border: 1px solid #fff; */
+    position: relative;
+    float: left;
+}
+.itemDetailsName h5 {
+    margin: 1% 5%;
+    float: left;
+    font-size: 18px;
+}
+.itemDetailsPrice {
+    margin: 1% 5%;
+    float: left;
+    font-size: 18px;
+}
+.itemDeleteIcon {
+    color: #b89366 !important;
+}
+.zipState,
+.cityPhone {
+    width: 46%;
+    margin: 2% !important;
+}
+.addressField {
+    width: 95%;
+    margin: 2% !important;
+}
+.addressForm {
+    font-family: Cinzel Decorative;
+}
+.orderSuccess {
+    font-family: Poppins;
+}

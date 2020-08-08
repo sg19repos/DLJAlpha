@@ -1,0 +1,42 @@
+{
+    "itemData": [
+        {
+            "id": 1001,
+            "name": "Nomination ring",
+            "category": "jewellery",
+            "subCategory": "bracelets",
+            "dateAdded": "01-01-2020",
+            "itemImage": "#",
+            "material": "silver",
+            "gender": "female",
+            "purity": "NA",
+            "weight": "20",
+            "price": {
+                "metalPricePerGm": "2000",
+                "makingCharges": "1800",
+                "tax": "300",
+                "discountPercent": 10
+            },
+            "additionalInfo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        },
+        {
+            "id": 1002,
+            "name": "Designer bracelet",
+            "category": "jewellery",
+            "subCategory": "bracelets",
+            "dateAdded": "02-01-2020",
+            "itemImage": "#",
+            "material": "silver",
+            "gender": "female",
+            "purity": "NA",
+            "weight": "20",
+            "price": {
+                "metalPricePerGm": "2000",
+                "makingCharges": "1800",
+                "tax": "300",
+                "discountPercent": 10
+            },
+            "additionalInfo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "parser": "babel-eslint",
+    "extends": ["airbnb, prettier"],
+    "plugins": ["prettier"],
+    "rules": {
+        // "quotes": [0, "prefer-double"],
+        "quotes": [1, "single", "avoid-escape"],
+        "semi": [0, "never"],
+        "jsx-quotes": [1, "prefer-double"],
+        "prettier/prettier": ["error"],
+        "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
+        "react/no-array-index-key": "off",
+        "indent": ["error", 2, { "ignoredNodes": ["JSXElement"] }],
+        "react/jsx-indent-props": [false, "tab"],
+        "react/jsx-indent": ["error", 2],
+        "linebreak-style": ["error", "windows"]
+    }
+}

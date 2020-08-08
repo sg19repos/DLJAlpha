@@ -1,0 +1,240 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "title": "Jewellery",
+            "image": "/assets/images/icon_wedding1.png",
+            "name": "jewellery"
+        },
+        {
+            "id": 2,
+            "title": "Pooja Items",
+            "image": "/assets/images/ganesha.png",
+            "name": "poojaItems"
+        },
+        {
+            "id": 3,
+            "title": "Houseware",
+            "image": "/assets/images/bowl.png",
+            "name": "houseware"
+        },
+        {
+            "id": 4,
+            "title": "Fancy Items",
+            "image": "/assets/images/art.png",
+            "name": "fancyItems"
+        }
+    ],
+    "subCategories": [
+        {
+            "id": 1,
+            "title": "Bracelets",
+            "image": "/assets/images/icon_bangles1.png",
+            "parentCat": "jewellery",
+            "name": "bracelets"
+        },
+        {
+            "id": 2,
+            "title": "Chains",
+            "image": "/assets/images/icon_pendant1.png",
+            "parentCat": "jewellery",
+            "name": "chains"
+        },
+        {
+            "id": 3,
+            "title": "Charms",
+            "image": "/assets/images/charms.png",
+            "parentCat": "jewellery",
+            "name": "charms"
+        },
+        {
+            "id": 4,
+            "title": "Kadas",
+            "image": "/assets/images/kada.png",
+            "parentCat": "jewellery",
+            "name": "kadas"
+        },
+        {
+            "id": 5,
+            "title": "Anklets",
+            "image": "anklets_icon.png",
+            "parentCat": "jewellery",
+            "name": "anklets"
+        },
+        {
+            "id": 6,
+            "title": "Waist Rings",
+            "image": "waistRings_icon.png",
+            "parentCat": "jewellery",
+            "name": "waistRings"
+        },
+        {
+            "id": 7,
+            "title": "Toe Rings",
+            "image": "toeRings_icon.png",
+            "parentCat": "jewellery",
+            "name": "toeRings"
+        },
+        {
+            "id": 8,
+            "title": "Nose Rings",
+            "image": "noseRings_icon.png",
+            "parentCat": "jewellery",
+            "name": "noseRings"
+        },
+        {
+            "id": 9,
+            "title": "Idols",
+            "image": "idols_icon.png",
+            "parentCat": "poojaItems",
+            "name": "idols"
+        },
+        {
+            "id": 10,
+            "title": "Pancha Pathra",
+            "image": "panchapatra_icon.png",
+            "parentCat": "poojaItems",
+            "name": "panchPatra"
+        },
+        {
+            "id": 11,
+            "title": "Eka Karte",
+            "image": "ekaKarte_icon.png",
+            "parentCat": "poojaItems",
+            "name": "ekaKarte"
+        },
+        {
+            "id": 12,
+            "title": "Kundis",
+            "image": "kundis_icon.png",
+            "parentCat": "poojaItems",
+            "name": "kundis"
+        },
+        {
+            "id": 13,
+            "title": "Ariveni",
+            "image": "ariveni_icon.png",
+            "parentCat": "poojaItems",
+            "name": "ariveni"
+        },
+        {
+            "id": 14,
+            "title": "Kireetam",
+            "image": "kireetam_icon.png",
+            "parentCat": "poojaItems",
+            "name": "kireetam"
+        },
+        {
+            "id": 15,
+            "title": "Ganta",
+            "image": "ganta_icon.png",
+            "parentCat": "poojaItems",
+            "name": "ganta"
+        },
+        {
+            "id": 16,
+            "title": "Sambrani Stand",
+            "image": "sambraniStand_icon.png",
+            "parentCat": "poojaItems",
+            "name": "sambraniStand"
+        },
+        {
+            "id": 17,
+            "title": "Sandal bowl",
+            "image": "sandalBowl_icon.png",
+            "parentCat": "poojaItems",
+            "name": "sandalBowl"
+        },
+        {
+            "id": 18,
+            "title": "Kum Kum Bharni",
+            "image": "kumkum_icon.png",
+            "parentCat": "poojaItems",
+            "name": "bharni"
+        },
+        {
+            "id": 19,
+            "title": "Asta Lakshmi Bowl",
+            "image": "astaLakshmiBowl_icon.png",
+            "parentCat": "poojaItems",
+            "name": "idolBowls"
+        },
+        {
+            "id": 20,
+            "title": "Asta Lakshmi Plates",
+            "image": "astaLakshmiPlates_icon.png",
+            "parentCat": "poojaItems",
+            "name": "idolPlates"
+        },
+        {
+            "id": 21,
+            "title": "Plates",
+            "image": "plates_icon.png",
+            "parentCat": "houseware",
+            "name": "plates"
+        },
+        {
+            "id": 22,
+            "title": "Glasses",
+            "image": "glasses_icon.png",
+            "parentCat": "houseware",
+            "name": "glasses"
+        },
+        {
+            "id": 23,
+            "title": "Bowls",
+            "image": "bowls_icon.png",
+            "parentCat": "houseware",
+            "name": "bowls"
+        },
+        {
+            "id": 24,
+            "title": "spoons",
+            "image": "spoons_icon.png",
+            "parentCat": "houseware",
+            "name": "spoons"
+        },
+        {
+            "id": 25,
+            "title": "Dinner set",
+            "image": "plates_icon.png",
+            "parentCat": "houseware",
+            "name": "dinnerSet"
+        },
+        {
+            "id": 26,
+            "title": "Pens",
+            "image": "pens_icon.png",
+            "parentCat": "fancyItems",
+            "name": "pens"
+        },
+        {
+            "id": 27,
+            "title": "Key Chains",
+            "image": "keyChains_icon.png",
+            "parentCat": "fancyItems",
+            "name": "keyChains"
+        },
+        {
+            "id": 28,
+            "title": "Flowerwase",
+            "image": "flowerwase_icon.png",
+            "parentCat": "fancyItems",
+            "name": "flowerWase"
+        },
+        {
+            "id": 29,
+            "title": "Photo Frames",
+            "image": "photoFrames_icon.png",
+            "parentCat": "fancyItems",
+            "name": "photoFrames"
+        },
+        {
+            "id": 30,
+            "title": "Artefacts",
+            "image": "artefacts_icon.png",
+            "parentCat": "fancyItems",
+            "name": "artefacts"
+        }
+    ]
+}

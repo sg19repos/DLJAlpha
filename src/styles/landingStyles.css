@@ -1,0 +1,115 @@
+.main {
+    height: 85%;
+    width: 100%;
+    margin: 0%;
+    background-color: #f6f3f5;
+    border-radius: 85px 0px 0px 0px;
+    /* border: 1px solid #000; */
+    position: absolute;
+    box-shadow: inset 1px 3px 0px 0px rgba(170, 158, 158, 0.15);
+    /* background-image: url('/assets/images/landBack2.jpg'); */
+    /* background-image: url('/assets/images/lightLanding.jpg'); */
+    /* background-image: url('/assets/images/landBack3.jpg'); */
+    background-image: url('/assets/images/landBack4.jpg');
+    background-blend-mode: soft-light;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-size: cover;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+.categoriesList {
+    height: 70%;
+    width: 90%;
+    margin: 2% 5%;
+    overflow-y: auto;
+}
+
+.category {
+    height: 30%;
+    width: 90%;
+    float: left;
+    margin-top: 12%;
+    /* border: 1px solid #000; */
+    border-radius: 0%;
+    border-bottom: 1px solid #fc3;
+    /* padding: 5px; */
+    /* box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), */
+    /* 0px 1px 3px 0px rgba(0, 0, 0, 0.12); */
+}
+.categoryName {
+    /* height: 100%;
+    width: 40%;
+    float: left;
+    margin: 2%;
+    border: 1px solid #000; */
+    height: 100%;
+    width: 55%;
+    float: left;
+    margin: 12% 2% 2% 2%;
+    /* border: 1px solid #000; */
+    /* font-family: Poppins; */
+    font-family: Cinzel Decorative;
+    text-transform: capitalize;
+    font-size: 25px;
+    text-align: left;
+}
+.categoryIcon {
+    height: 100%;
+    width: 35%;
+    float: left;
+    margin: 2%;
+    /* border: 1px solid #000; */
+}
+.categoryIcon img {
+    /* width: 130px; */
+    width: 110px;
+    /* max-width: 90px; */
+    margin: 0% auto 5% auto;
+    height: 105px;
+    /* border: 5px solid #ddd; */
+    /* border-radius: 10%; */
+    /* padding: 11%; */
+
+    border-radius: 60%;
+    border-bottom: 2px solid #fc3;
+    padding: 16px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+        0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    background: #f6f3f5;
+
+    background-size: cover;
+    text-align: center;
+    background-image: url('/assets/images/catTopBack.jpg');
+}
+.catScroll {
+    height: 100%;
+    width: 90%;
+    margin: 2% 8%;
+    float: left;
+    display: flex;
+    overflow: auto;
+}
+.scrollCategory {
+    height: 60%;
+    margin: 2%;
+    width: 20%;
+    float: left;
+    /* border: 1px solid #000; */
+    border-bottom: 1px solid #fc3;
+    padding: 12px;
+    font-family: Cinzel Decorative;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+        0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.scrollCategories {
+    height: 20%;
+    width: 100%;
+    color: #000;
+    /* background-color: #fc3; */
+}
+.scrollCategory img {
+    width: 50px;
+    height: 50px;
+}

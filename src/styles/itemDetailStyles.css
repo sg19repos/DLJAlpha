@@ -1,0 +1,56 @@
+.main {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* background-color: #ddd; */
+    background-color: #fff;
+    margin: auto;
+    /* font-family: Raleway; */
+    font-family: Cinzel Decorative;
+}
+.imageContent {
+    height: 40%;
+    width: 99%;
+    background-color: #f2f2f2;
+    /* border: 1px solid #000; */
+    background-size: cover;
+    text-align: center;
+    background-image: url('/assets/images/catTopBack.jpg');
+    /* background-image: url('/assets/images/greenLeafBg.jpg'); */
+    /* background-image: url('/assets/images/sandBg.jpg'); */
+}
+.imageContent img {
+    width: 80%;
+}
+
+.itemTitle {
+    text-align: left;
+    font-size: 28px;
+    margin: 2% 5% 0% 8%;
+    text-transform: capitalize;
+}
+.itemTitle h5 {
+    margin-bottom: 0%;
+}
+.price {
+    text-align: left;
+    font-size: 32px;
+    margin: 4% 5% 2% 8%;
+}
+.price span {
+    font-size: 20px;
+    margin: 2% 2% 2% 0%;
+    font-family: Cinzel Decorative;
+}
+.price h4 {
+    margin-top: 0%;
+    font-family: Cinzel Decorative;
+}
+.actions {
+    text-align: center;
+}
+.addToFav,
+.share {
+    margin: 2% 20%;
+    float: left;
+}
