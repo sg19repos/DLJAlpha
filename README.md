@@ -12,7 +12,7 @@
 
 ## Installation
 
--   cd sankeycharts
+-   cd DLJAlpha
 -   npm install
 -   npm start
 -   visit `http://localhost:8080/`
